@@ -536,9 +536,10 @@ form .error {
 
 @media screen and (max-width: 770px) {
     
-    /******************************************************************************
-    NAV
-    ******************************************************************************/
+    .nav{
+        justify-content: center;
+    }
+
     .brand{
         width: 4em;
         height: 2em;
@@ -564,4 +565,39 @@ form .error {
         height: 2em;
     }
 
+    .cart-container-product{
+        width: 20em;
+        height: 90%;
+    }
+    
+    #form-buy{
+        width: 400px;
+    }
+
+    .input-box{
+        width: 200px;
+        margin: 0px;
+        transform: translateX(-10%);
+    }
+    
+    .input-box label{
+        font-size: 14px;
+    }
+
+    .btn-comprar{
+        width: 150px;
+        height: 30px;
+    }
+
+    .mensaje-container{
+        width: 14em;
+        height: 4em;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #form-buy{
+        width: 300px;
+    }
 }
