@@ -47,12 +47,12 @@
         </div>
         <div class="texto">
             <p>Felicitaciones
-            <?php
+            <span style="color: #bcbcbc"><?php
                 $nombre = $_POST["nombre"];
                 $apellido = $_POST["apellido"];
 
                 echo "$nombre $apellido";
-            ?>    
+            ?></span>
             , tu compra se ha realizado con exito!</p>
             <p>Gracias por confiar en nosotros!</p>
         </div>

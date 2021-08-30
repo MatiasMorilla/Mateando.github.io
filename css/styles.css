@@ -454,12 +454,12 @@ a{
 }
 
 #form-buy{
+    width: 610px;
     position: relative;
     top: 25%;
     left: 50%;
     transform: translateX(-55%);
     background: #fff;
-    width: 600px;
     padding: 15px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
