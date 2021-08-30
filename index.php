@@ -18,7 +18,7 @@
             <div class="brand">
                 <h2>MATEANDO</h2>
             </div>
-            <form action="" class="form-search" id="form-search">
+            <form action="index.php" class="form-search" id="form-search">
                 <input type="search" class="search" placeholder="Busca tu producto aqui...">
                 <button class="btn btn-search" type="button">Buscar</button>
             </form>

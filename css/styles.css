@@ -686,7 +686,7 @@ form .error {
     align-items: flex-end;
 }
 
-.container-btn button{
+.container-btn a{
     width: 90%;
     height: 35px;
     margin-bottom: 10px;
@@ -694,8 +694,11 @@ form .error {
     border: none;
     outline: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-btn button:active{
+.container-btn a:active{
     transform: scale(.98);
 }
