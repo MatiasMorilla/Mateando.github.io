@@ -642,21 +642,21 @@ form .error {
 }
 
 .container{
-    margin: 140px auto;
+    margin: 148px auto;
     width: 600px;
-    height: 400px;
-    border: 1px solid #000;
+    height: 300px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "check texto texto"
                          "check btn btn";
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .check{
     grid-area: check;
     font-size: 120px;
-    color: #00ff00;
+    color: #45f345;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -670,7 +670,7 @@ form .error {
     justify-content: space-around;
     align-items: flex-start;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .texto p:nth-child(2)
@@ -684,4 +684,18 @@ form .error {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+.container-btn button{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+    background: #45f345;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-btn button:active{
+    transform: scale(.98);
 }

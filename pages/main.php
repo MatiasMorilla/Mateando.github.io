@@ -46,11 +46,18 @@
             <i class="far fa-check-circle"></i>
         </div>
         <div class="texto">
-            <p>Felicitaciones, tu compra se ha realizado con exito!</p>
+            <p>Felicitaciones
+            <?php
+                $nombre = $_POST["nombre"];
+                $apellido = $_POST["apellido"];
+
+                echo "$nombre $apellido";
+            ?>    
+            , tu compra se ha realizado con exito!</p>
             <p>Gracias por confiar en nosotros!</p>
         </div>
         <div class="container-btn">
-            <button class="">Volver al inicio</button>
+            <button>Volver al inicio</button>
         </div>
     </div>
     
