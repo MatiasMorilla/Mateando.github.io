@@ -21,6 +21,12 @@ body{
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Encode Sans SC";
+}
+
 
 /******************************************************************************
  HEADER
@@ -53,11 +59,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.brand img{
-    width: 100px;
-    height: 5em;
 }
 
 .form-search{
@@ -625,4 +626,62 @@ form .error {
         width: 3.5em;
         height: 2em;
     }
+}
+
+
+/******************************************************************************
+ ESTILOS DEL SECCION DE AGREDECIMIENTO
+******************************************************************************/
+.body-main{
+    overflow: hidden;
+}
+
+.brand a{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container{
+    margin: 140px auto;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "check texto texto"
+                         "check btn btn";
+}
+
+.check{
+    grid-area: check;
+    font-size: 120px;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-20%);
+}
+
+.texto{
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.texto p:nth-child(2)
+{
+    font-size: 18px;
+}
+
+.container-btn{
+    grid-area: btn;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }

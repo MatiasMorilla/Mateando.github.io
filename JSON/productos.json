@@ -1,0 +1,130 @@
+[
+    {
+       "id":1,
+       "nombre":"Imperial",
+       "stock":50,
+       "precio":5000,
+       "img":"images/mateImperial.png",
+       "info":"mate imperial negro"
+    },
+    {
+       "id":2,
+       "nombre":"Camionero",
+       "stock":80,
+       "precio":1000,
+       "img":"images/camioneroMarron.png",
+       "info":"mate camionero marron"
+    },
+    {
+       "id":3,
+       "nombre":"Torpedo Marron",
+       "stock":70,
+       "precio":1500,
+       "img":"images/torpedoMarron.png",
+       "info":"mate torpedo marron"
+    },
+    {
+       "id":4,
+       "nombre":"Torpedo Negro",
+       "stock":10,
+       "precio":2000,
+       "img":"images/torpedoNegro.png",
+       "info":"mate torpedo negro"
+    },
+    {
+       "id":5,
+       "nombre":"Matera Negra",
+       "stock":15,
+       "precio":952,
+       "img":"images/materaNegra.png",
+       "info":"matera negra"
+    },
+    {
+       "id":6,
+       "nombre":"Matera Marron Claro",
+       "stock":20,
+       "precio":1250,
+       "img":"images/materaMarronC.png",
+       "info":"matera marron claro"
+    },
+    {
+       "id":7,
+       "nombre":"Matera Marron Oscuro",
+       "stock":10,
+       "precio":1250,
+       "img":"images/materaMarronO.png",
+       "info":"matera marron oscuro"
+    },
+    {
+       "id":9,
+       "nombre":"Stanley Verde",
+       "stock":15,
+       "precio":12000,
+       "img":"images/termoVerde.png",
+       "info":"termo stanley verde"
+    },
+    {
+       "id":11,
+       "nombre":"Termo Gris",
+       "stock":50,
+       "precio":2000,
+       "img":"images/termogris.png",
+       "info":"termo gris"
+    },
+    {
+       "id":12,
+       "nombre":"Termo Gris con Pico",
+       "stock":50,
+       "precio":2200,
+       "img":"images/termoPico.png",
+       "info":"termo gris con pico"
+    },
+    {
+       "id":13,
+       "nombre":"Yerbera Negra",
+       "stock":40,
+       "precio":800,
+       "img":"images/yerbaNegra.png",
+       "info":"yerbera y azucarera negra"
+    },
+    {
+       "id":14,
+       "nombre":"Yerbera Marron",
+       "stock":50,
+       "precio":800,
+       "img":"images/yerbaMarron.png",
+       "info":"yerbera y azucarera marron"
+    },
+    {
+       "id":15,
+       "nombre":"Yerbera Azul",
+       "stock":60,
+       "precio":800,
+       "img":"images/yerbaAzul.png",
+       "info":"yerbera y azucarera azul"
+    },
+    {
+       "id":16,
+       "nombre":"Set Matero Marron",
+       "stock":60,
+       "precio":5500,
+       "img":"images/setMatero1.png",
+       "info":"set matero marron"
+    },
+    {
+       "id":17,
+       "nombre":"Set Matero Negro",
+       "stock":60,
+       "precio":5500,
+       "img":"images/setMatero4.png",
+       "info":"set matero negra"
+    },
+    {
+       "id":18,
+       "nombre":"Set Matero Verde",
+       "stock":60,
+       "precio":5500,
+       "img":"images/setMatero3.png",
+       "info":"set matero verde"
+     }
+ ]

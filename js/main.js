@@ -15,9 +15,12 @@ window.onscroll = function()
     }
 }
 
-
-crearYcargarSlide(); // Cargo el slider con sus imagenes
-crearYagregarCards(); // Cargo los productos
+$(function()
+{
+    crearYcargarSlide(); // Cargo el slider con sus imagenes
+    crearYagregarCards(); // Cargo los productos
+    
+});
 
 
 // Eventos para mover el slider
