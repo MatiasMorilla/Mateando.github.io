@@ -15,7 +15,7 @@
    <header class="header" id="header">
         <nav class="nav">
             <div class="brand">
-                <a href="../index.html">MATEANDO</a>
+                <a href="../index.php">MATEANDO</a>
             </div>
             <form action="" class="form-search" id="form-search">
                 <input type="search" class="search" placeholder="Busca tu producto aqui...">
