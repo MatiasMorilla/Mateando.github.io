@@ -57,7 +57,7 @@
             <p>Gracias por confiar en nosotros!</p>
         </div>
         <div class="container-btn">
-            <a href="../index.html">Volver al inicio</a>
+            <a href="../index.php">Volver al inicio</a>
         </div>
     </div>
     
