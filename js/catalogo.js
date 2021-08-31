@@ -1,7 +1,8 @@
 const container = $(".products-container");
 const search = document.querySelector(".search");
 
-const p1 = new Productos(1, "Imperial", 50, 5000, "images/mateImperial.png", "mate imperial negro");
+// DESCOMENTAR PARA USAR INDEX.PHP
+/* const p1 = new Productos(1, "Imperial", 50, 5000, "images/mateImperial.png", "mate imperial negro");
 const p2 = new Productos(2, "Camionero", 80, 1000, "images/camioneroMarron.png", "mate camionero marron");
 const p3 = new Productos(3, "Torpedo Marron", 70, 1500, "images/torpedoMarron.png", "mate torpedo marron");
 const p4 = new Productos(4, "Torpedo Negro", 10, 2000, "images/torpedoNegro.png", "mate torpedo negro");
@@ -18,9 +19,9 @@ const p16 = new Productos(16, "Set Matero Marron", 60, 5500, "images/setMatero1.
 const p17 = new Productos(17, "Set Matero Negro", 60, 5500, "images/setMatero4.png", "set matero negra");
 const p18 = new Productos(18, "Set Matero Verde", 60, 5500, "images/setMatero3.png", "set matero verde"); 
 
-const arrayProductos = [p1, p2, p3, p4, p5, p6 , p7, p9, p11, p12, p13, p14, p15, p16, p17, p18];
+const arrayProductos = [p1, p2, p3, p4, p5, p6 , p7, p9, p11, p12, p13, p14, p15, p16, p17, p18]; */
 
-
+// Descomentar para usar con index html (live server)
 /* const urlJSON = "../JSON/productos.json";
 const arrayProductos = [];
 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Estilos Generales -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Mateando</title>
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="brand">
+                <h2>MATEANDO</h2>
+            </div>
+            <form action="index.php" class="form-search" id="form-search">
+                <input type="search" class="search" placeholder="Busca tu producto aqui...">
+                <button class="btn btn-search" type="button">Buscar</button>
+            </form>
+            <div class="cart-container">
+                <button class="btn-cart" id="btn-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- CARRITO -->
+        <div class="cart-container-product cart-hidden">    
+            <div class="cart">
+
+            </div>
+            
+            <div class="buy-container">
+                <span class="total-price">Total:</span>
+                <button class="btn btn-buy">Comprar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MENSAJE DEL CARRITO -->
+
+    <div class="mensaje-container">
+        <p class="mensaje">Se ha agregado un producto al carrito!</p>
+    </div>
+
+   <!-- SLIDE -->
+   <div class="container-slider">
+        <div class="slider" id="slider">       
+
+            <div class="slider-btn slider-btn-left" id="btn-left">&#60</div>
+            <div class="slider-btn slider-btn-right" id="btn-right">&#62</div>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="products-container">
+
+        </div>
+    </main>  
+
+    <!-- PASARELA DE PAGO -->
+    <section class="section-buy">
+        <form action="pages/main.php" method="POST"  id="form-buy">
+            <button type="button" class="btn-cancelar-compra"><i class="fas fa-times-circle"></i></button>
+            <div class="input-box">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            </div>
+    
+            <div class="input-box">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            </div>
+    
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Ingrese su email">
+            </div>
+    
+            <div class="input-box">
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" placeholder="Ingrese su direccion">
+            </div>
+    
+            <div class="tarjeta-container">
+                <div class="input-box">
+                    <label for="numeroTarjeta">Numero de la tarjeta</label>
+                    <input type="text" name="numeroTarjeta" placeholder="Ingrese el numero de la tarjeta">
+                </div>
+    
+                <div class="input-box">
+                    <label for="nombreTitular">Nombre del titular</label>
+                    <input type="text" name="nombreTitular" placeholder="Ingrese el nombre del titular">
+                </div>
+    
+                <div class="input-box">
+                    <label for="fecha">Fecha de vencimiento</label>
+                    <input type="date" name="fecha">
+                </div>
+    
+                <div class="input-box">
+                    <label for="codigo">CVV</label>
+                    <input type="text" name="codigo" placeholder="Ingrese el CVV">
+                </div>
+            </div>
+
+            <div class="footer-sectionBuy">
+                <span class="total-compra">Total:</span>
+                <input type="submit" value="Finalizar Compra" class="btn btn-comprar">
+            </div>
+        </form>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="redes">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="footer-brand">
+            <a href="#">MATEANDO</a>
+        </div>
+    </footer>
+
+    <!-- Script JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Script de Validacion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <!-- Script Productos -->
+    <script src="js/productos.js"></script>
+    <!-- Script Catalogo -->
+    <script src="js/catalogo.js"></script>
+    <!-- Script Storage -->
+    <script src="js/storage.js"></script>
+    <!-- Script Slider -->
+    <script src="js/slider.js"></script>
+    <!-- Script Main -->
+    <script src="js/main.js"></script>
+    <!-- Script Cart -->
+    <script src="js/cart.js"></script>
+    <!-- Script Buy -->
+    <script src="js/buy.js"></script>
+</body>
+</html>
