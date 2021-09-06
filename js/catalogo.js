@@ -22,7 +22,7 @@ const p18 = new Productos(18, "Set Matero Verde", 60, 5500, "images/setMatero3.p
 const arrayProductos = [p1, p2, p3, p4, p5, p6 , p7, p9, p11, p12, p13, p14, p15, p16, p17, p18]; */
 
 // Descomentar para usar con index html (live server)
-/* const urlJSON = "../JSON/productos.json";
+const urlJSON = "JSON/productos.json";
 const arrayProductos = [];
 
 $.getJSON(urlJSON, function(respuesta, estado)
@@ -35,7 +35,7 @@ $.getJSON(urlJSON, function(respuesta, estado)
             arrayProductos.push(new Productos(p.id, p.nombre, p.stock, p.precio, p.img, p.info));
         }
     }
-}); */
+});
     
 
 function crearYagregarCards()
